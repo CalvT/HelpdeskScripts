@@ -6,6 +6,8 @@
 // @match        https://app.helpdesk.com/*
 // @icon         https://www.google.com/s2/favicons?domain=helpdesk.com
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/CalvT/HelpdeskScripts/main/HideLongMessages.js
+// @updateURL    https://raw.githubusercontent.com/CalvT/HelpdeskScripts/main/HideLongMessages.js
 // ==/UserScript==
 
 (function() {
