@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Hide Long Messages
-// @version      1.0
+// @version      1.1
 // @description  Hides previously sent messages from the message view in Helpdesk
 // @author       Calvin Tomkins
 // @match        https://app.helpdesk.com/*
@@ -14,14 +14,10 @@
     'use strict';
 
     var extracssHLM = `
-        div[style*="color:rgb(116,120,126);"] {
-            height: 15px!important;
-            background: red!important;
-            overflow: hidden!important;
-        }
-
-        div[style*="color:rgb(116,120,126);"] td {
-            background: red!important;
+        div.fs-mask > div > div:nth-child(2) {
+            max-height: 300px!important;
+            overflow-y: scroll!important;
+            overflow-x: hidden!important;
         }
     `;
 
