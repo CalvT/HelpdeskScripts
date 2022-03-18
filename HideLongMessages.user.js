@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         Hide Long Messages
-// @version      1.1
+// @version      1.2
 // @description  Hides previously sent messages from the message view in Helpdesk
 // @author       Calvin Tomkins
 // @match        https://app.helpdesk.com/*
 // @icon         https://www.google.com/s2/favicons?domain=helpdesk.com
 // @grant        none
-// @downloadURL  https://raw.githubusercontent.com/CalvT/HelpdeskScripts/main/HideLongMessages.js
-// @updateURL    https://raw.githubusercontent.com/CalvT/HelpdeskScripts/main/HideLongMessages.js
+// @downloadURL  https://raw.githubusercontent.com/CalvT/HelpdeskScripts/main/HideLongMessages.user.js
+// @updateURL    https://raw.githubusercontent.com/CalvT/HelpdeskScripts/main/HideLongMessages.user.js
 // ==/UserScript==
 
 (function() {
